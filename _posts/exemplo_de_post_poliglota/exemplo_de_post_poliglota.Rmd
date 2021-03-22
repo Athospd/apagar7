@@ -67,3 +67,29 @@ copy_to(db, mtcars)
 SELECT * FROM mtcars
 ```
 
+## Um mapinha
+
+```{r}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  
+  addMarkers(lng=174.768, lat=-36.852, popup="Onde o R Nasceu")
+```
+
+
+## Um gráfico que mexe
+
+```{r}
+library(dygraphs)
+dygraph(ldeaths)
+```
+
+
+## Um plotly
+
+```{r}
+library(plotly)
+plot_ly(z = ~volcano) %>% 
+  add_surface()  
+```
+
