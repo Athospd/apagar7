@@ -37,9 +37,10 @@ Esse passo-a-passo é baseado no [doc do distill](https://rstudio.github.io/dist
 knitr::include_graphics("githubpages.gif")
 ```
 
-6. Rode `distill::create_blog(".", "Blog do Athos")` para criar seu blog.
-7. *Commitar* e *pushar* para o github.
-8. Ir para o link que o Github Pages mostrou na hora da configuração.
+6. Rode `file.create(".nojekyll")` só pra evitar uns problemas com o ghpages.
+7. Rode `distill::create_blog(".", "Blog do Athos")` para criar seu blog.
+8. *Commitar* e *pushar* para o github.
+9. Ir para o link que o Github Pages mostrou na hora da configuração.
 
 ```{r, echo = FALSE, layout="l-body-outset", fig.cap="ghpages"}
 knitr::include_graphics("githubpageslink.png")
