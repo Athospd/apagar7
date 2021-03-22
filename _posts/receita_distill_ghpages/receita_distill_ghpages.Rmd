@@ -58,4 +58,6 @@ knitr::include_graphics("githubpageslink.png")
 - [Blog da ABJ](https://blog.abj.org.br/index.html)
 - [Site do próprio Distill para R Markdown](https://rstudio.github.io/distill/)
 - [RStudio AI Blog](https://blogs.rstudio.com/ai/)
+- [Ciência de Dados com R e PostgreSQL do JJ - José Jesus do R](https://rpg.consudata.com.br/)
+- [Blog da Beatriz Milz](https://beatrizmilz.com/)
 
