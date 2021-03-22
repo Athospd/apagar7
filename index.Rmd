@@ -1,0 +1,5 @@
+---
+title: "Blog Novo"
+site: distill::distill_website
+listing: posts
+---
